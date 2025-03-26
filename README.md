@@ -48,10 +48,3 @@ For more details about the configuration and usage of each script, please refer 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- **FAISS** for efficient similarity search.
-- **Hugging Face Transformers** for state-of-the-art language models.
-- **SentenceTransformers** for embedding generation.
-- The research community for providing these tools and models.
