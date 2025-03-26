@@ -1,5 +1,5 @@
 
-# Retrieval-Augmented Generation (RAG) Pipeline for Dissertation Dataset
+# Retrieval-Augmented Generation (RAG) Pipeline for Dissertation
 
 This repository contains two Jupyter notebooks that work together to build and use a Retrieval-Augmented Generation (RAG) system using your dissertation dataset. The system processes your JSONL files, builds a FAISS index for fast similarity search, and then uses a gated Llama model to generate responses based on retrieved context.
 
