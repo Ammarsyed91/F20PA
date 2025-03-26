@@ -11,9 +11,14 @@ This project provides a pipeline for processing PDF files. The pipeline scans a 
 
 1. **Clone the Repository**
 
+   Using SSH:
+
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
-   cd your-repository-name
+   git clone git@github.com:Ammarsyed91/F20PA.git
+   cd F20PA
+Or, using HTTPS:
+git clone https://github.com/Ammarsyed91/F20PA.git
+cd F20PA
 Create and Activate a Virtual Environment
 On macOS/Linux:
 python3 -m venv venv
@@ -22,7 +27,7 @@ On Windows:
 python -m venv venv
 venv\Scripts\activate
 Install Dependencies
-Ensure you have a requirements.txt file in the repository (which should include packages such as tqdm, pdfplumber, and nltk). Then run:
+Ensure you have the requirements.txt file in the repository. Then run:
 pip install -r requirements.txt
 Configure File Paths
 Open the config.py file and adjust the following paths to match your system:
@@ -33,7 +38,7 @@ Modify any other configuration settings as needed.
 Project Structure
 
 config.py
-Contains configuration settings such as file paths, batch sizes, chunk sizes, and number of workers.
+Contains configuration settings such as file paths, batch sizes, chunk sizes, and the number of workers.
 pdf_scanner.py
 Scans the specified PDF directory, collects PDF file information, and writes an inventory file.
 pdf_processor.py
@@ -46,7 +51,7 @@ requirements.txt
 Lists the required Python packages for the project.
 Running the Application
 
-Once you have configured your paths and installed the dependencies, you can run the pipeline by executing:
+Once you have configured your paths and installed the dependencies, run the pipeline with:
 python main.py
 This command will:
 Set up logging (with output to both the console and a rotating log file).
