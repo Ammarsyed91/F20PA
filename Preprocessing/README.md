@@ -22,23 +22,16 @@ This project provides a pipeline for processing PDF files. The pipeline scans a 
 ```bash
 git clone https://github.com/Ammarsyed91/F20PA.git
 cd F20PA
-
 Create and Activate a Virtual Environment
 On macOS/Linux:
-
 python3 -m venv venv
 source venv/bin/activate
-
 On Windows:
-
 python -m venv venv
 venv\Scripts\activate
-
 Install Dependencies
 Ensure you have the requirements.txt file in the repository. Then run:
-
 pip install -r requirements.txt
-
 Configure File Paths
 Open the config.py file and adjust the following paths to match your system:
 PDF_FOLDER: The absolute path where your PDF files are stored.
@@ -54,9 +47,7 @@ main.py: The main entry point for the application. It sets up logging, creates n
 requirements.txt: Lists the required Python packages for the project.
 Running the Application
 Once you have configured your paths and installed the dependencies, run the pipeline with:
-
 python main.py
-
 This command will:
 Set up logging (with output to both the console and a rotating log file).
 Scan the designated folder for PDFs.
