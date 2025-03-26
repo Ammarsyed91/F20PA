@@ -61,7 +61,7 @@ Modify any other configuration settings as needed.
 Once you have configured your paths and installed the dependencies, run the pipeline with:
 
     python main.py
-This common will 
+This command will 
 
  - Set up logging (with output to both the console and a rotating log file).
  - Scan the designated folder for PDFs.
